@@ -1,0 +1,47 @@
+{
+  "title": "Address ",
+  "description": "Address object",
+  "type": "object",
+  "properties": {
+    "line1": {
+      "description": "line1",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255,
+      "pattern": "(.|\\s)*\\S(.|\\s)*"
+    },
+    "line2": {
+      "description": "line2",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "city": {
+      "description": "city",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255,
+      "pattern": "(.|\\s)*\\S(.|\\s)*"
+    },
+    "state": {
+      "description": "state",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255,
+      "pattern": "(.|\\s)*\\S(.|\\s)*"
+    },
+    "zip_code": {
+      "description": "zipCode",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255,
+      "pattern": "(.|\\s)*\\S(.|\\s)*"
+    }
+  },
+  "required": [
+    "line1",
+    "city",
+    "state",
+    "zipCode"
+  ]
+}

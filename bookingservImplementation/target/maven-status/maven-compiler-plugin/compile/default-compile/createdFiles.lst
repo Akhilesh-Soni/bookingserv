@@ -1,0 +1,8 @@
+com/paypal/bfs/test/bookingserv/bookingservice/BookingServiceImpl.class
+com/paypal/bfs/test/bookingserv/repository/AddressData.class
+com/paypal/bfs/test/bookingserv/impl/BookingResourceImpl.class
+com/paypal/bfs/test/bookingserv/BookingServApplication.class
+com/paypal/bfs/test/bookingserv/bookingservice/BookingService.class
+com/paypal/bfs/test/bookingserv/bookingservice/RestResponseStatusExceptionResolver.class
+com/paypal/bfs/test/bookingserv/repository/BookingRepository.class
+com/paypal/bfs/test/bookingserv/repository/BookingData.class
